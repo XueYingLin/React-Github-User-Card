@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import axios from "axios";
 import Profile from "./Profile";
+import "./styles.css";
 
 class App extends React.Component {
   state = {

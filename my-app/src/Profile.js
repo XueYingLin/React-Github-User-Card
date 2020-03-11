@@ -4,13 +4,13 @@ import PersonCard from "./PersonCard";
 
 const Profile = (props) => {
     return (
-        <div>
+        <div className="display">
             <div className="profile">
                 <img src={props.avatar_url} />
                 <p>{props.login}</p>
                 <p>{props.html_url}</p>
             </div>
-            <p className="follower-string">Followers:</p>
+            <p className="follower-string">Followers as below:</p>
             
             {props.followers.map(p => (
                 <PersonCard key={p}

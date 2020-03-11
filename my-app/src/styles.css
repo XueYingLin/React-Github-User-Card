@@ -1,0 +1,18 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: auto;
+    padding-top: 50px;
+    
+    width: 33%;
+    background-color: #48D1CC;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
