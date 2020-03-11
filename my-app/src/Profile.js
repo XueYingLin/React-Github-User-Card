@@ -10,7 +10,7 @@ const Profile = (props) => {
                 <p>{props.login}</p>
                 <p>{props.html_url}</p>
             </div>
-            <p className="follower-string">Followers as below:</p>
+            <p className="text">Followers as below:</p>
             
             {props.followers.map(p => (
                 <PersonCard key={p}
